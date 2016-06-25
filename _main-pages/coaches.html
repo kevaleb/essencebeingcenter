@@ -1,0 +1,32 @@
+---
+layout: default
+title: coaches
+description: Blah blah blah blah
+permalink: /coaches/
+navclass: coaches
+navtitle: Coaches
+---
+<div class="banner half" style="background-image: url(/images/banners/coaches.jpg);">
+	<hgroup class="center">
+		<h1>Coaches</h1>
+	</hgroup>
+</div>
+
+<section class="coaches">
+	<ul>
+		{% for coach in site.coaches %}
+			<li>
+				<a href="#">
+					<img src="{{ coach.image_path }}" alt="" />
+					<h3>{{ coach.title }}</h3>
+					<h4>{{ coach.coach-title }}</h4>
+					<p>{{ coach.content }}</p>
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</section>
+
+<article>
+	<p>Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.</p>
+</article>

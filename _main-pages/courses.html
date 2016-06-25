@@ -1,0 +1,30 @@
+---
+layout: default
+title: courses
+description: Blah blah blah blah
+permalink: /courses/
+navclass: courses
+navtitle: Courses
+---
+<div class="banner half" style="background-image: url(/images/banners/sunset.jpg);">
+	<hgroup class="center">
+		<h1>Courses</h1>
+	</hgroup>
+</div>
+
+<section class="courses">
+	<ul>
+		{% for course in site.courses %}
+			<li>
+				<a href="#" style="background-image: url('{{ coach.image_path }}');">
+					<h3>{{ course.name }}</h3>
+					<p>{{ course.content }}</p>
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</section>
+
+<article>
+	<p>Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.</p>
+</article>

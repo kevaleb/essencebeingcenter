@@ -3,7 +3,7 @@ layout: default
 title: Marinna Ri Siri
 name: Marinna Ri Sirri
 coach-title: Shama Mama
-image_path: /images/coaches/marina.jpg
+image_path: /images/coaches/marinna.jpg
 courses:
 subjects:
 organizations:

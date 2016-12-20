@@ -546,7 +546,7 @@ body > header > div > nav > a.selected {
 /* @group BANNER */
 .content .banner {
 	position: relative;
-	height: 72%;
+	height: 96%;
 	/*max-height: 720px;*/
 	min-height: 320px;
 	padding: 60px 0;
@@ -559,13 +559,12 @@ body > header > div > nav > a.selected {
 	white-space: nowrap;
 }
 .content .banner.half {
-	height: 50%;
+	height: 96%;
 	background-image: radial-gradient(ellipse farthest-corner, #333 24%, black 100%) #000;
 	background-attachment:scroll;
 	background-size: contain;
 	background-repeat: no-repeat;
 	
-	height: 50%;
 	background-color: #000;
 	background-image: radial-gradient(ellipse farthest-corner, #333 24%, black 100%) #000;
 	background-attachment:scroll;
@@ -757,7 +756,7 @@ hgroup.video {
 
 /* @group Main Gallery */
 .content > div > .main-gallery {
-	height: 72%;
+	height: 96%;
 	padding: 0 0 0 0;
 	min-height: 320px;
 	background: #000;
@@ -1049,6 +1048,14 @@ hgroup.video {
 .content > div > .contact > h1 {
 	color: #fff;
 	display: none;
+}
+.content > div > .contact > h3 {
+	color: #fff;
+	margin: 0 0 24px 0;
+}
+.content > div > .contact > h4 {
+	color: #fff;
+	font-weight: 100;
 }
 .contact > form {
 	max-width: 480px;

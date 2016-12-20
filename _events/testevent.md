@@ -7,7 +7,6 @@ location:
 show_map: true
 longitude:
 lattitude:
-
 ---
 
 

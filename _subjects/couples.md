@@ -1,6 +1,9 @@
 ---
 _layout: subjects
 title: Couples
-icon_image_path: /uploads/disney-movies--50.png
-banner_image_path: /uploads/blog.jpg
+icon_image_path: /uploads/general-electrics-50.png
+banner_image_path: /uploads/about.jpg
 ---
+
+
+Blah blah blah.

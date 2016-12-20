@@ -4,8 +4,9 @@ title: About Us
 description: Blah blah blah blah
 permalink: /about-us/
 banner_image_path: /images/banners/about.jpg
-navclass: about-us
+navclass: /about-us/
 navtitle: About
+navorder: 3
 ---
 
 <!--<h1>OUR STORY</h1>-->

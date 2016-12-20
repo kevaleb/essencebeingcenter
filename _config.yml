@@ -3,13 +3,7 @@ permalink: pretty
 collections:
   main-pages:
     output: true
-  coaches:
-    output: true
-  courses:
-    output: true
   events:
-    output: true
-  organizations:
     output: true
   subjects:
     output: true

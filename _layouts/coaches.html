@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="banner half blog-post" style="background-image: url({{ page.image_path }});">
+	<hgroup class="">
+		<h1>{{ page.title }}</h1>
+		<h2>{{ page.subtitle }}</h2>
+	</hgroup>
+</div>
+<article class="about-us">
+	{{ content }}
+</article>
+<section class="testimonials">
+	<ul>
+		{% for item in page.testimonials %}
+			<li>
+				<p>{{ item.quote }}</p>
+				<h5>{{ item.name }}</h5>
+			</li>
+		{% endfor %}
+	</ul>
+</section>

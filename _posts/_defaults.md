@@ -1,8 +1,6 @@
 ---
-layout: blogpost
+_layout: article
 title:
-category:
-author:
-permalink:
+subject:
 banner_image_path:
 ---

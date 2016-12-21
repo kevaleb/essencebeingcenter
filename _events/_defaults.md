@@ -1,5 +1,5 @@
 ---
-_layout: event
+layout: event
 title:
 subject:
 banner_image_path: 

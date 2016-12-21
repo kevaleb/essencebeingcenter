@@ -1,5 +1,5 @@
 ---
-_layout: article
+layout: article
 title:
 subject:
 banner_image_path:

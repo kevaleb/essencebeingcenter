@@ -54,42 +54,18 @@ permalink: /
 	<ul>
 		{% for subject in site.subjects %}
 			<li>
-				<a href="#">
-					<img src="/images/subjects/placeholder.jpg" alt="" />
+				<a href="{{ subject.url }}">
+					<img src="{{ subject.icon_image_path }}" alt="" />
 					<h5>{{ subject.title }}</h5>
-					<p>{{ subject.content }}</p>
 				</a>
 			</li>
 		{% endfor %}
 	</ul>
 </div>
 
-<section class="events">
-	<h1>Events</h1>
-	<ul>
-	{% assign sorted_events = (site.events | sort: "_datetime") %}
-	{% for event in sorted_events %}
-	
-	{% capture eventdate %}{{ event._datetime  | date: "%Y-%m-%-e" }}{% endcapture %}
-	{% capture pagedate %}{{ page.date  | date: "%Y-%m-%-e" }}{% endcapture %}
-	
-		<li data-event-date="{{ event._datetime | date: "%d-%b-%Y" }}" data-event-date2="{{ event._datetime | date: "%Y-%m-%-e" }}" class="event">
-			<a href="#">
-				<div>
-					<span class="month">{{ event._datetime | date: "%b" }}</span>
-					<span class="date">{{ event._datetime | date: "%-d" }}</span>
-				</div>
-				<hgroup>
-					<h5>{{ event.title }}</h5>
-					<h6>{{ event._datetime | date: "%A %l:%M %p" }}</h6>
-				</hgroup>
-				<!--<p>{{ event.content }}</p>-->
-			</a>
-		</li>
+{% assign events = site.events %}
+{% include events.html %}
 
-	{% endfor %}
-	</ul>	
-</section>
 
 <div class="contact">
 	<h1>Contact </h1>

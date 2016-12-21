@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="banner" style="background-image: url('{{ page.banner_image_path }}');">
+	<hgroup>
+		<h1>{{ page.title }}</h1>
+	</hgroup>
+</div>
+
+<article>
+	{{ content }}
+</article>
+
+{% assign events = site.events | where:"subject",page.title %}
+{% include events.html %}

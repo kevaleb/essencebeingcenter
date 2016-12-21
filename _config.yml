@@ -1,5 +1,5 @@
 name: Essence Being Center
-permalink: pretty
+permalink: /blog/:title/
 collections:
   main-pages:
     output: true
@@ -7,3 +7,4 @@ collections:
     output: true
   subjects:
     output: true
+    permalink: /:title/

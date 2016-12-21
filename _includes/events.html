@@ -1,0 +1,29 @@
+<div class="events">
+	<h1>Events</h1>
+	<ul>
+	{% assign sorted_events = (events | sort: "_datetime") %}
+	{% for event in sorted_events %}
+	
+	{% capture eventdate %}{{ event._datetime  | date: "%Y-%m-%-e" }}{% endcapture %}
+	{% capture pagedate %}{{ page.date  | date: "%Y-%m-%-e" }}{% endcapture %}
+	
+		<li data-event-date="{{ event._datetime | date: "%d-%b-%Y" }}" data-event-date2="{{ event._datetime | date: "%Y-%m-%-e" }}" class="event">
+			<a href="{{ event.url }}">
+				
+				<div style="background-image: url('{{ event.banner_image_path }}');">
+					<span class="month">{{ event.event_datetime | date: "%b" }}</span>
+					<span class="date">{{ event.event_datetime | date: "%-d" }}</span>
+				</div>
+				<hgroup>
+					<h2>{{ event.title }}</h5>
+					<h3><img src="/images/icons/clock.png" alt="clock" />{{ event.event_datetime | date: "%A %l:%M %p" }}</h3>
+					<h4><img src="/images/icons/marker.png" alt="marker" />{{ event.location }}</h4>
+					<p>{{ event.content }}</p>
+					<span>Read More</span>
+				</hgroup>
+			</a>
+		</li>
+
+	{% endfor %}
+	</ul>	
+</div>

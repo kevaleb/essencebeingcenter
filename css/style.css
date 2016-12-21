@@ -925,15 +925,21 @@ hgroup.video {
 .subjects > ul > li > a > img {
 	display: block;
 	width: 96px;
-	height: 96px;
+	/*height: 96px;*/
 	margin: 0 auto;
-	border: 1px solid #ccc;
+	/*border: 1px solid #ccc;*/
 }
 .subjects > ul > li > a > h5 {
+	font: 400 14px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	text-transform: capitalize;
 }
-.subjects > ul > li > a > p {
-	font: 200 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+
+
+@media all and (max-width: 720px) {
+.subjects > ul > li {
+	width: 49%;
+	margin: 0 0 36px 0;
+}
 }
 /* @end */
 
@@ -944,10 +950,10 @@ hgroup.video {
 
 /* @group Events */
 .events {
-	
+	background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
 }
 .events > h1 {
-	text-align: left;
+	text-align: center;
 	max-width: 720px;
 	margin: 0 auto!important;
 }
@@ -960,9 +966,9 @@ hgroup.video {
 	margin: 0;
 	padding: 0;
 }
-.events > ul:before {
+/*.events > ul:before {
 	position: relative;
-	/*left: 24px;*/
+	/*left: 24px;*!/
 	content: '\00a0';
 	display: block;
 	width: 72px;
@@ -970,67 +976,215 @@ hgroup.video {
 }
 .events > ul:after {
 	position: relative;
-	/*left: 24px;*/
+	/*left: 24px;*!/
 	content: '\00a0';
 	display: block;
 	width: 72px;
 	border-top: 2px solid #ccc;
-}
+}*/
+
+
+
+
+
 .events > ul > li {
-	box-sizing: content-box;
-	position: relative;
-	height: 72px;
-	margin: 0 0 0 36px;
-	padding: 24px 36px 24px 48px;
-	border-left: 2px solid #ccc;
+	display: block;
+	margin: 0 0 48px 0;
 }
 .events > ul > li > a {
+	position: relative;
+	display: block;
+	height: 320px;
 	text-decoration: none;
-}
-.events > ul > li > a > div {
-	position: absolute;
-	left: -36px;
-	top: 24;
-	width: 72px;
-	height: 72px;
+	white-space: nowrap;
 	background: #fff;
-	border: 3px solid #ccc;
-	border-radius: 100px;
+}
+
+
+
+
+
+.events > ul > li > a > div {
+	position: relative;
+	z-index: 100;
+	display: inline-block;
+	width: 30%;
+	height: 100%;
+	margin: 0 -.25em 0 0;
 	text-align: center;
+	vertical-align: middle;
+	background-size: cover;
+	background-position: center;
 }
 .events > ul > li > a > div > span {
 	display: block;
-	
+	max-width: 96px;
+	margin: 0 auto;
 }
 .events > ul > li > a > div > .month {
-	margin: 12px 0 0 0;
-	font: 200 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-top: 96px;
+	padding: 12px;
+	background: red;
+	font: 900 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #fff;
 	letter-spacing: 2px;
-	text-transform: uppercase;
+	text-transform: uppercase
 }
 .events > ul > li > a > div > .date {
-	font:900 24px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding: 24px 0;
+	background: #fff;
+	font:100 48px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
+
+
+
+
+
+
 .events > ul > li > a > hgroup {
-	
+	display: inline-block;
+	width: 70%;
+	max-height: 100%;
+	padding: 0 48px;
+	vertical-align: middle;
+	white-space: normal;
+	overflow: hidden;
 }
-.events > ul > li > a > hgroup > h5 {
-	margin: 12px 0 0 0;
-	font: 500 20px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+.events > ul > li > a > hgroup:after {
+	content: '\00a0';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 72px;
+	background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.99) 100%);
+	background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.99) 100%);
+	background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.99) 100%);
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.99) 75%);
 }
-.events > ul > li > a > hgroup > h6 {
-	font: 200 16px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+.events > ul > li > a > hgroup > h2 {
+	margin:0 0 0 0;
+	font: 500 30px/48px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.events > ul > li > a > hgroup > h3 {
+	font: 400 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	letter-spacing: 2px;
 }
+.events > ul > li > a > hgroup > h4 {
+	font: 400 14px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: 2px;
+}
+.events > ul > li > a > hgroup > h3 > img, 
+.events > ul > li > a > hgroup > h4 > img {
+	position: relative;
+	top: -2px;
+	width: 16px;
+	margin: 0 6px 0 0;
+	vertical-align: middle;
+}
+.events > ul > li > a > hgroup > p {
+	margin: 12px 0 0 0;
+	font: 300 14px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+.events > ul > li > a > hgroup > span {
+	display: none;
+	position: absolute;
+	bottom: 12px;
+	right: 12px;
+	z-index: 100;
+	border: 2px solid #333;
+	border-radius: 3px;
+	margin: 12px 0 0 0;
+	padding: 3px 12px;
+	background: #fff;
+	font: 400 12px/24px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #333;
+}
+.events > ul > li:hover > a > hgroup > span {
+	display: block;
+}
+
 
 
 
 
 @media all and (max-width: 960px) {
-.content .events {
-	padding: 96px 48px;
+	.content .events {
+		padding: 96px 48px;
+	}
 }
+
+
+
+@media all and (max-width: 720px) {
+	.events {
+		padding: 0 48px 48px 48px!important;
+	}
+	.events > ul > li > a {
+		height: auto;
+	}
+	.events > ul > li > a > div {
+		display: block;
+		width: 100%;
+		height: 240px;
+		padding: 60px 0 0 0;
+	}
+	.events > ul > li > a > div > span.month{
+		margin-top: 0 ;
+	}
+	
+	.events > ul > li > a > hgroup {
+		display: block;
+		width: 100%;
+		max-height: 240px;
+		padding: 24px;
+		text-align: center;
+	}
+	.events > ul > li > a > hgroup > h3,
+	.events > ul > li > a > hgroup > h4 {
+		position: relative;
+		z-index: 1000;
+	}
+	.events > ul > li > a > hgroup > span {
+		display: block;
+	}
 }
+/* @end */
+
+
+
+
+
+
+
+/* @group Event Banner */
+
+.banner.event {
+	
+}
+.banner.event > hgroup {
+	width: auto;
+	background: rgba(0,0,0,.5);
+	padding: 36px;
+	max-width: 720px;
+}
+.banner.event > hgroup > h2 {
+	margin: 0;
+	line-height: 0;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+.banner.event > hgroup > h2:first-of-type {
+	/*font-size: 24px;*/
+	margin: 12px 0;
+}
+.banner.event > hgroup > h2 > img {
+	position: relative;
+	top: 2px;
+	width: 18px;
+	margin: 0 6px 0 0;
+}
+
 /* @end */
 
 
@@ -2033,6 +2187,21 @@ article > ul > li{
 	white-space: normal;
 }
 /* @end */
+
+
+
+
+
+
+/* @group MAP */
+
+#map {
+	height: 50%;
+}
+
+/* @end */
+
+
 
 
 

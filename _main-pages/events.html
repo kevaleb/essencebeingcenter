@@ -13,32 +13,8 @@ navorder: 2
 	</hgroup>
 </div>
 
-<div class="events">
-	<h1>Events</h1>
-	<ul>
-	{% assign sorted_events = (site.events | sort: "_datetime") %}
-	{% for event in sorted_events %}
-	
-	{% capture eventdate %}{{ event._datetime  | date: "%Y-%m-%-e" }}{% endcapture %}
-	{% capture pagedate %}{{ page.date  | date: "%Y-%m-%-e" }}{% endcapture %}
-	
-		<li data-event-date="{{ event._datetime | date: "%d-%b-%Y" }}" data-event-date2="{{ event._datetime | date: "%Y-%m-%-e" }}" class="event">
-			<a href="#">
-				<div>
-					<span class="month">{{ event._datetime | date: "%b" }}</span>
-					<span class="date">{{ event._datetime | date: "%-d" }}</span>
-				</div>
-				<hgroup>
-					<h5>{{ event.title }}</h5>
-					<h6>{{ event._datetime | date: "%A %l:%M %p" }}</h6>
-				</hgroup>
-				<!--<p>{{ event.content }}</p>-->
-			</a>
-		</li>
-
-	{% endfor %}
-	</ul>	
-</div>
+{% assign events = site.events %}
+{% include events.html %}
 
 <article>
 	<p>Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.	Blah blah blah blah blah blah. Blah blah blah blah blah blah. Blah blah blah blah blah blah.</p>

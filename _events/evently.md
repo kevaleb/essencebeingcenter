@@ -11,7 +11,7 @@ longitude: '-111.6822697'
 ---
 
 
-&nbsp;
+How to accomodate the greater good possible for the whole in community has been a common theme from within me and most of the people i have attracted throughout my life.&nbsp;
 
 &nbsp;
 

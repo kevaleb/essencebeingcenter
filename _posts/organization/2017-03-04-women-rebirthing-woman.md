@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "You are the one you've been waiting for"
+title: Women ReBirthing Woman
 subject: community
-banner_image_path: /uploads/screen-shot-2017-03-01-at-2-30-43-pm.png
+banner_image_path: /uploads/Fotolia_83853395_Subscription_Monthly_M.jpg
 ---
 
 
-# &nbsp;
+#
 
 ![](/uploads/versions/screen-shot-2017-03-01-at-2-33-41-pm---x----1441-775x---.png)

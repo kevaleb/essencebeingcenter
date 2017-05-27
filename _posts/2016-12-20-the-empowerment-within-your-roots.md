@@ -1,7 +1,7 @@
 ---
 layout: article
-title: Blog Post 2
-subject: couples
+title: The Empowerment within Your Roots
+subject: community
 banner_image_path: /uploads/2319158351-abeab26aa8.jpg
 ---
 

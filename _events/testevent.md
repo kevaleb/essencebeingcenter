@@ -1,11 +1,11 @@
 ---
-layout: event
-title: Test Event
+layout: subject
+title: Lava Hot Springs 3-5 Day ReBirthing Training Retreat
 subject: community
 banner_image_path: /uploads/change.jpg
-event_datetime: 2016-06-09 07:30:00
-location: '735 South Provo UT, 78940'
-show_map: true
+event_datetime: 2016-08-03 00:00:00
+location: Lava Hot Springs
+show_map: false
 latitude: '40.300245'
 longitude: '-111.7125947'
 ---

@@ -1,7 +1,7 @@
 ---
 layout: article
-title: 'Post #2879'
-subject: womans-empowerment
+title: "You are the one you've been waiting for"
+subject: community
 banner_image_path: /uploads/screen-shot-2017-03-01-at-2-30-43-pm.png
 ---
 

@@ -5,6 +5,3 @@ collections:
     output: true
   events:
     output: true
-  subjects:
-    output: true
-    permalink: /:title/

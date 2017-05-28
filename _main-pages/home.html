@@ -49,20 +49,6 @@ permalink: /
 	<p class="editable">Serenity Eco Village Associations are Global Leaders providing Irresistible Solutions of Genuine Holistic Practices, Wholeness Lifestyles, Well-Being Services, Empowerment Training, Innovative Solutions for Conscientious Living.</p>
 </section>
 
-<div class="subjects">
-	<!--<h3>Subjects</h3>-->
-	<ul>
-		{% for subject in site.subjects %}
-			<li>
-				<a href="{{ subject.url }}">
-					<img src="{{ subject.icon_image_path }}" alt="" />
-					<h5>{{ subject.title }}</h5>
-				</a>
-			</li>
-		{% endfor %}
-	</ul>
-</div>
-
 {% assign events = site.events %}
 {% include events.html %}
 

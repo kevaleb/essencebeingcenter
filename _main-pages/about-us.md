@@ -22,10 +22,16 @@ We imagine our purpose to be facilitators by our own example. Our willingness to
 
 ## OUR COMMITTMENT
 
-• To deliver exceptional quality environments, services and facilitators to our mentee's and clients. • To provide services with upmost Integrity to all of our clients. • To maintain sustainable practices that protect, and support all members of community’s in symbiosis with mama earth. • To continue to mentor by example pro-active wholeness and well-being practices that uplift, inspire and enlighten global community members as long as the trees and grass grow and rivers flow.
+• To deliver exceptional quality environments, services and facilitators to our mentee's and clients.
+
+• To provide services with upmost Integrity to all of our clients.
+
+• To maintain sustainable practices that protect, and support all members of community’s in symbiosis with mama earth.
+
+• To continue to mentor by example pro-active wholeness and well-being practices that uplift, inspire and enlighten global community members as long as the trees and grass grow and rivers flow.
 
 ## OUR CERTIFICATIONS
 
 Each of our facilitators have many certifications. We invite you to go and visit and connect with our facilitators online. May your journey with us be an adventure you will remember forever and serve your fullest personal creativity and spontaneity. May your ability to upgrade your thoughts, feelings and belief’s about all things behind you (your past), now (the present), and before you (the future) be one amazing, rewarding quantum leap. May you discover and develop new skills and experience the elemental purification practices we are able to offer through our qualified instructors, coaches, mentors, medicine people, cultural healing traditions and modalities that return us to the connectedness we so lovingly long to experience again with all of our hearts, minds, body’s and spirit’s.
 
-Blessed Be the SEVA Staff Anticipating witnessing your Awakening the self actualization back to you real self!
+&nbsp;

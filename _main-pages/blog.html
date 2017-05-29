@@ -11,15 +11,25 @@ navorder: 4
 		<h1>The Blog</h1>
 	</hgroup>
 </div>
-<ul class="blogposts">
-	{% for post in site.posts %}
-		<li>
-			<a href="{{ post.url }}">
-				<div class="postbanner" style="background-image: url('{{ post.banner_image_path }}');"></div>
-				<!--<h3>{{ post.category }}</h3>-->
-				<h2>{{ post.title }}</h2>
-				{{ post.excerpt }}
-			</a>
-		</li>
-	{% endfor %}
-</ul>
+
+
+<div class="posts">
+	<ul>
+		{% assign filtered_posts = site.posts %}
+		{% for post in filtered_posts %}
+			<li>
+				<h1>{{ post.title }}</h1>
+				{% unless post.sub_head == nil %}
+				<h2>{{ post.sub_head }}</h2>
+				{% endunless %}
+				<section class="post-info">
+					<span>Posted in <strong>{{ post.category }}</strong> on <strong>{{ post.date | date:" %b %d, %Y" }}</strong> by: <strong>{{ post.author | downcase | replace:'-',' ' }}</strong></span>
+				</section>
+				<article>
+					{{ post.excerpt }}
+				</article>
+				<a href="{{ post.url }}" class="button border">Read More</a>
+			</li>
+		{% endfor %}
+	</ul>
+</div>

@@ -55,7 +55,78 @@ a:hover {
 /* @end */
 
 
+/* @group Article */
+article {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 48px 0px;
+	text-align: left;
+}
+article > * {
+	margin:0 0 24px 0;
+}
+article > blockquote,
+article > p > em {
+	display: block;
+	text-align: center;
+}
+article > :first-child {
+	margin-top: 0;
+}
+article > :last-child {
+	margin-bottom: 0;
+}
 
+article img {
+	width: 100%;
+	margin-bottom: 24px;
+}
+article blockquote {
+	padding: 24px 0;
+}
+
+
+
+@media all and (max-width: 960px) {
+
+	article {
+		padding: 48px;
+		column-count: 1;
+	}
+
+}
+
+@media all and (max-width: 720px) {
+
+	article {
+		padding: 0 24px;
+		column-count: 1;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+
+	article {
+		padding: 0 0 48px 0;
+	}
+	article h1,
+	article h2,
+	article h3,
+	article h4,
+	article h5,
+	article h6,
+	article p,
+	article ul {
+		padding-left: 24px;
+		padding-right: 24px;
+	}
+	article ul,
+	article ol {
+		padding-left: 60px;
+	}
+}
+/* @end */
 
 
 
@@ -2013,86 +2084,77 @@ hgroup.video {
 
 
 
-/* @group Article */
-article {
-	max-width: 720px;
-	margin: 0 auto;
-	padding: 36px 0;
+
+
+
+/* @group posts */
+
+.posts {
+	
 }
-
-
-article > hgroup {
-	margin: 72px 0 48px 0;
+.posts > ul {
+	max-width: 600px;
+	margin: 96px auto 0 auto;
+	list-style: none;
+}
+.posts > ul > li {
 	text-align: center;
+	margin: 0 0 84px 0;
+	padding: 0 0 84px 0;
+	border-bottom: 1px solid #ccc;
 }
-article > h1 {
-	margin: 36px 0;
+.posts > ul > li {
+	text-decoration: none;
 }
-article > h2 {
-	margin: 36px 0;
+.posts > ul > li > h1 {
+	
 }
-article > p+h3  {
-	margin: 72px 0 0 0;
+.posts > ul > li > h2 {
+	margin: 0;
 }
-
-
-article > blockquote > p {
-	margin: 48px 0;
-	text-align: center;
-	font: 400 24px/36px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+.posts > ul > li > section {
+	margin: 6px 0 24px 0;
+	padding: 0;
+	color: #b23d1c;
+}
+.posts > ul > li > section > span {
+	font: 300 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: capitalize;
 	letter-spacing: 1px;
-	color: #b23636;
-	color: #444;
 }
-/*article > blockquote > p:before,
-article > blockquote > p:after {
-	content: '"';
-}*/
-
-article p {
-	margin: 0 0 36px 0;
-	font-size: 20px;
+.posts > ul > li > article {
+	max-height: 240px;
 	overflow: hidden;
-	letter-spacing: 1px;
 }
-article p > img {
-	width: 100%;
-	/*margin: -36px 0 0 0;*/
-}
-article > h3+p {
-	margin: 0 0 36px 0;
-}
-article > p:first-of-type:first-letter { 
-	float: left; 
-	color: #d64336; 
-	font-size: 120px; 
-	line-height: 96px; 
-	vertical-align: top;
-	padding-top: 12px; 
-	padding-right: 24px; 
-	padding-left: 3px; 
-	font-family: Georgia; 
-}
-article > hr {
-	height: 48px;
-	border: none;
-	border-top: 1px dotted #ccc;
+.posts > ul > li > .button {
+	margin: 24px 0 0 0;
 }
 
 
-article > ul {
-	margin: 0 0 36px 0;
-	padding: 0 0 0 24px;
+@media all and (max-width: 720px) {
+	.posts > ul {
+		margin: 0;
+		padding: 24px;
+	}
 }
-article > ul > li{
-	/*margin: 36px 0;*/
-	/*padding: 50px;*/
-	font-size: 20px;
-}
+
 /* @end */
 
+/* @group Post Info */
 
+.post-info {
+	margin: 6px 0 24px 0;
+	padding: 0;
+	color: #b23d1c;
+	text-align: center;
+}
+.post-info {
+	font: 300 12px/12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 1px;
+}
 
+/* @end */
 
 
 /* @group Subscribe */

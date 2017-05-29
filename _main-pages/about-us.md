@@ -1,9 +1,9 @@
 ---
-layout: article
+layout: post
 title: About Us
 description: Blah blah blah blah
 permalink: /about-us/
-banner_image_path: /images/banners/about.jpg
+banner_path: /images/banners/about.jpg
 navclass: /about-us/
 navtitle: About
 navorder: 3

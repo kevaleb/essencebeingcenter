@@ -1,10 +1,13 @@
-name: Essence Being Center
+name: Serenity Echo Villages
 permalink: /blog/:title/
+phone: (435) 610-1067
+email: serenityechovillages@gmail.com
 collections:
   main-pages:
     output: true
   events:
     output: true
+  facilitators:
     
 defaults:
   -

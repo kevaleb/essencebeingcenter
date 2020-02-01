@@ -1,6 +1,8 @@
 ---
 title: Finding Serenity
-subject:
+subject: >-
+  Debreif my reason to e the example of who i believed we can exist as in a
+  world that cant see its head frm its ass.
 banner_path:
 ---
 
@@ -9,38 +11,6 @@ banner_path:
 &nbsp;
 
 &nbsp;
-
-&nbsp;
-
-**Self Reuniting&nbsp;**
-
-&nbsp;
-
-**Embracing UnBelonging**
-
-&nbsp;
-
-**My Childrens Freedom Granted Come What May**
-
-&nbsp;
-
-**Investing for your awakening**
-
-&nbsp;
-
-**Peter Pans Lost Hope the excruciating wake up call**
-
-&nbsp;
-
-**Lost Boys and Girls**&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; A year of death hell and the devil
-
-&nbsp;
-
-**Reason to Believe Again**
-
-&nbsp;
-
-**We are the Hope weve always been waiting for\!**
 
 &nbsp;
 

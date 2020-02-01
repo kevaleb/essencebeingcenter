@@ -1,5 +1,5 @@
 ---
-position: Sef Empowerment
+position: Self Empowerment
 photo_path: /uploads/dsc-9668.jpg
 sort_order: '2'
 description_html:

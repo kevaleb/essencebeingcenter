@@ -8,7 +8,7 @@ banner_path: /images/banners/sunset.jpg
 
 ## BOOK 3
 
-**Finding Soverinity**
+## **Finding Soverinity**
 
 &nbsp;
 

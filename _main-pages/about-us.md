@@ -1,7 +1,7 @@
 ---
 layout: post
 title: About Us
-description: Blah blah blah blah
+description: The heart of what really matters
 permalink: /about-us/
 banner_path: /images/banners/about.jpg
 navclass: /about-us/

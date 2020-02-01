@@ -1,8 +1,8 @@
 ---
-layout: event
-title: ReBirthing Breathwork Training
-subject: community
-banner_image_path: /uploads/sunset.jpg
+layout: post
+title: the essence of being
+subject: awakening to freedom through consciousness
+banner_image_path: /uploads/fotolia-89974234-subscription-monthly-m.jpg
 event_datetime:
 location:
 show_map: false
@@ -10,5 +10,3 @@ latitude: '40.320018'
 longitude: '-111.7007787'
 ---
 
-
-November thru March Training was beautiful journey with our beloved friends.&nbsp;

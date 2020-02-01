@@ -1,7 +1,6 @@
 ---
-title: "Who's on First"
-subject: couples
+title: Finding Soverinity
+subject:
 banner_path: /images/banners/sunset.jpg
 ---
-
 

@@ -1,10 +1,9 @@
 ---
-position: Womans Empowerment
-photo_path: /uploads/nurse.jpg
+position: Sef Empowerment
+photo_path: /uploads/dsc-9668.jpg
 sort_order: '2'
-description_html: Blah blah blah blah
+description_html:
 ---
-
 
 A devoted husband and loving, compassionate father, who has been self employed for 37 years seeing a niche in the local market, and developed a mobile maintenance repair business. This business was successful enough to allow David to start a family, buy a home and go back to college where he earned a degree in broadcast communications.
 
